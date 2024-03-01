@@ -9,7 +9,7 @@ describe("GET /", () => {
                 if (err) return done(err);
 
                 expect(res.body)
-                    .toHaveProperty('status', 'ok');
+                    .toHaveProperty("status", "ok");
 
                 done();
             });
