@@ -2,7 +2,7 @@ import express from "express";
 import bodyParser from "body-parser";
 
 // Controllers (route handlers)
-import * as homeController from "./controllers/home";
+import homeController from "./transport/home/controller";
 
 const app = express();
 
