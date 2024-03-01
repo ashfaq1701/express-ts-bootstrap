@@ -1,8 +1,8 @@
 import {Request, Response} from "express";
 import HomeIndexResponse from "./responses/HomeIndexResponse";
 import HomeIndexDTO from "./dtos/HomeIndexDTO";
-import {validationMiddleware} from "../middlewares/validation.middleware";
-import {ResponseStatus} from "../common/ResponseStatus";
+import {validationMiddleware} from "../../middlewares/validation.middleware";
+import {ResponseStatus} from "../../common/ResponseStatus";
 
 /**
  * Home path.

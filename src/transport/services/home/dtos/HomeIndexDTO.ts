@@ -1,4 +1,4 @@
-import DTO from "../../common/DTO";
+import DTO from "../../../common/DTO";
 
 class HomeIndexDTO extends DTO {}
 
